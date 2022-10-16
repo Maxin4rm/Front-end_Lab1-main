@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'YesevaOne';
+  src: url("fonts/YesevaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url("fonts/Opensans-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("fonts/Opensans-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Gentium-Bold';
+  src: url("fonts/GentiumBookBasic-Bold.ttf");
+}
+
+body {
+  margin: 0;
+  width: 1600px;
+}
+
+#ingredients {
+  background-image: url("images/bg_ingredients.png");
+  height: 758px;
+}
+
+#ingredients .container {
+  padding-top: 100px;
+  margin-left: 815px;
+  height: 570px;
+  width: 570px;
+  text-align: center;
+}
+
+#ingredients .divider {
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#ingredients .text-header {
+  padding-top: 132px;
+  font-family: 'YesevaOne', serif;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+#ingredients .text-description {
+  font-family: 'Lato', serif;
+  font-size: 16px;
+  color: #efefef;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+#ingredients .cook {
+  width: 400px;
+  padding-left: 8px;
+  padding-top: 66px;
+  display: flex;
+}
+
+#ingredients .cook2 {
+  flex: 1 1 auto;
+  margin: 0 13px;
+}
+
+#ingredients .description {
+  background-image: url("images/bg_quote.png");
+  background-color: ;
+  display: inline-block;
+  padding-top: 76px;
+  padding-bottom: 76px;
+  padding-left: 67px;
+  padding-right: 68px;
+  width: 435px;
+}
+
+#ingredients .dish {
+  float: right;
+}
